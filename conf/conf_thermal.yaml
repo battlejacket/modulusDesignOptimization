@@ -1,0 +1,78 @@
+defaults :
+  - modulus_default
+  - arch:
+      - fully_connected
+  - scheduler: tf_exponential_lr
+  - optimizer: adam
+  - loss: sum
+  - _self_
+
+run_mode: "train"
+
+custom:
+  arch: "FourierNetArch"
+  parameterized: true
+  turbulent: true
+  num_samples: 1
+  optPoints: 3000
+  inf_points: 10000
+  adaptive_activations: True
+  useHTC: False
+  includeData: False
+  dataOnly: False
+  optimizeTfco1: True
+  optimizeTfcoSync: False
+  optimizeTfco2: True
+  optimizeTfco2Sync: False
+  optimizeTs: True
+  optimizeTsSync: False
+  optimizeTf: True
+  globalLambdaTfco: 1
+  globalLambdaTf: 1
+  globalLambdaTs: 1
+  channelHr: False
+
+  neumanInterfaceCh: 100
+  dirichletInterfaceCh: 10
+  adDifCh: 10
+
+  neumanInterfaceCo: 50 
+  dirichletInterfaceCo: 10
+  adDifCo: 10
+  
+  solidDiff: 5000
+
+
+network_dir : "./rsF2"
+initialization_network_dir : "init"
+
+scheduler:
+  decay_rate: 0.95
+  decay_steps: 15000
+
+optimizer: 
+  # lr: 6e-6
+  lr: 1e-4
+  
+training:
+  rec_validation_freq: 1000
+  rec_inference_freq: 2000
+  rec_monitor_freq: 1000
+  rec_constraint_freq: 1000
+  max_steps : 1600000
+  # save_network_freq: 10000
+
+batch_size:
+  globalModifier: 1
+  batchPerEpoch: 5000
+  inlet: 256
+  outlet: 256
+  channelWall: 1024
+  solidWall: 1024
+  lr_interior_f: 2048
+  hr_interior_f: 2048
+  holeInteriorHR:  1024
+  interiorSolid: 3072
+  channelInterface: 3072
+  coolingInterface: 1024
+

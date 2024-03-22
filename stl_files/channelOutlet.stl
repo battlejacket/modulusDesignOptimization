@@ -1,0 +1,16 @@
+solid CATIA STL
+  facet normal  1.000000e+00  0.000000e+00  0.000000e+00
+    outer loop
+      vertex  2.100000e+02 -2.500000e+01 -6.500000e+01
+      vertex  2.100000e+02  2.500000e+01 -6.500000e+01
+      vertex  2.100000e+02 -2.500000e+01  6.500000e+01
+    endloop
+  endfacet
+  facet normal  1.000000e+00  -0.000000e+00  0.000000e+00
+    outer loop
+      vertex  2.100000e+02 -2.500000e+01  6.500000e+01
+      vertex  2.100000e+02  2.500000e+01 -6.500000e+01
+      vertex  2.100000e+02  2.500000e+01  6.500000e+01
+    endloop
+  endfacet
+endsolid CATIA STL

@@ -1,0 +1,187 @@
+Date : 2024-01-15 13:42:13
+Directory : /dLight/modulusDesignOptimization
+Total : 139 files,  6858782 codes, 0 comments, 395 blanks, all 6859177 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| CSV      |        139 |  6,858,782 |          0 |        395 |  6,859,177 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                            | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                               |        139 |  6,858,782 |          0 |        395 |  6,859,177 |
+| ansys                                                                                                                                           |        130 |  6,853,912 |          0 |        386 |  6,854,298 |
+| ansys (Files)                                                                                                                                   |          4 |    673,503 |          0 |          8 |    673,511 |
+| ansys/constraints                                                                                                                               |          8 |  4,217,608 |          0 |         24 |  4,217,632 |
+| ansys/constraints (Files)                                                                                                                       |          6 |  4,169,275 |          0 |         18 |  4,169,293 |
+| ansys/constraints/co1                                                                                                                           |          1 |     24,127 |          0 |          3 |     24,130 |
+| ansys/constraints/co2                                                                                                                           |          1 |     24,206 |          0 |          3 |     24,209 |
+| ansys/validators                                                                                                                                |         49 |    830,528 |          0 |        147 |    830,675 |
+| ansys/validators - Copy                                                                                                                         |         69 |  1,132,273 |          0 |        207 |  1,132,480 |
+| ansys/validators - Copy/channel                                                                                                                 |         18 |  1,008,674 |          0 |         54 |  1,008,728 |
+| ansys/validators - Copy/internal1                                                                                                               |         13 |     28,501 |          0 |         39 |     28,540 |
+| ansys/validators - Copy/internal2                                                                                                               |         16 |     45,511 |          0 |         48 |     45,559 |
+| ansys/validators - Copy/solid                                                                                                                   |         22 |     49,587 |          0 |         66 |     49,653 |
+| ansys/validators/channel                                                                                                                        |         12 |    742,716 |          0 |         36 |    742,752 |
+| ansys/validators/internal1                                                                                                                      |          9 |     17,561 |          0 |         27 |     17,588 |
+| ansys/validators/internal2                                                                                                                      |         12 |     34,527 |          0 |         36 |     34,563 |
+| ansys/validators/solid                                                                                                                          |         16 |     35,724 |          0 |         48 |     35,772 |
+| opt                                                                                                                                             |          1 |        454 |          0 |          1 |        455 |
+| outputs                                                                                                                                         |          8 |      4,416 |          0 |          8 |      4,424 |
+| outputs/channelFlow                                                                                                                             |          4 |        408 |          0 |          4 |        412 |
+| outputs/channelFlow/data                                                                                                                        |          4 |        408 |          0 |          4 |        412 |
+| outputs/channelFlow/data/monitors                                                                                                               |          4 |        408 |          0 |          4 |        412 |
+| outputs/coolingFlow                                                                                                                             |          4 |      4,008 |          0 |          4 |      4,012 |
+| outputs/coolingFlow/rsSDF                                                                                                                       |          4 |      4,008 |          0 |          4 |      4,012 |
+| outputs/coolingFlow/rsSDF/monitors                                                                                                              |          4 |      4,008 |          0 |          4 |      4,012 |
++-------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                                        | language | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /dLight/modulusDesignOptimization/ansys/channelFM.csv                                                                                           | CSV      |    550,462 |          0 |          3 |    550,465 |
+| /dLight/modulusDesignOptimization/ansys/channelXZ.csv                                                                                           | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/constraints/co1/co1_5-5-28-12-22-22-20-20.csv                                                           | CSV      |     24,127 |          0 |          3 |     24,130 |
+| /dLight/modulusDesignOptimization/ansys/constraints/co2/co2_5-5-28-12-22-22-20-20.csv                                                           | CSV      |     24,206 |          0 |          3 |     24,209 |
+| /dLight/modulusDesignOptimization/ansys/constraints/thetaF_3-3-12-12-10-10-20-20.csv                                                            | CSV      |    694,950 |          0 |          3 |    694,953 |
+| /dLight/modulusDesignOptimization/ansys/constraints/thetaF_3-3-28-12-10-10-20-20.csv                                                            | CSV      |    694,865 |          0 |          3 |    694,868 |
+| /dLight/modulusDesignOptimization/ansys/constraints/thetaF_3-3-28-28-22-22-11-11.csv                                                            | CSV      |    694,865 |          0 |          3 |    694,868 |
+| /dLight/modulusDesignOptimization/ansys/constraints/thetaF_5-5-12-12-22-22-11-11.csv                                                            | CSV      |    694,865 |          0 |          3 |    694,868 |
+| /dLight/modulusDesignOptimization/ansys/constraints/thetaF_5-5-12-28-22-22-20-20.csv                                                            | CSV      |    694,865 |          0 |          3 |    694,868 |
+| /dLight/modulusDesignOptimization/ansys/constraints/thetaF_5-5-28-28-10-10-11-11.csv                                                            | CSV      |    694,865 |          0 |          3 |    694,868 |
+| /dLight/modulusDesignOptimization/ansys/coolingFlowMax.csv                                                                                      | CSV      |      4,563 |          0 |          1 |      4,564 |
+| /dLight/modulusDesignOptimization/ansys/coolingFlowMin.csv                                                                                      | CSV      |      4,162 |          0 |          1 |      4,163 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP100_channelXZ_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv     | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP100_channelYZ1_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv    | CSV      |      9,363 |          0 |          3 |      9,366 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP100_channelYZ2_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv    | CSV      |      9,582 |          0 |          3 |      9,585 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP101_channelXZ_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv     | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP101_channelYZ1_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv    | CSV      |      9,356 |          0 |          3 |      9,359 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP101_channelYZ2_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv    | CSV      |      9,505 |          0 |          3 |      9,508 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP102_channelXZ_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv     | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP103_channelXZ_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv     | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP104_channelXZ_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv     | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP10_channelXZ_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv      | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP10_channelYZ1_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv     | CSV      |      9,264 |          0 |          3 |      9,267 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP10_channelYZ2_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv     | CSV      |      9,504 |          0 |          3 |      9,507 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP98_channelXZ_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv      | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP98_channelYZ1_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv     | CSV      |      9,277 |          0 |          3 |      9,280 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP98_channelYZ2_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv     | CSV      |      9,281 |          0 |          3 |      9,284 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP99_channelXZ_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv      | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP99_channelYZ1_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv     | CSV      |      9,444 |          0 |          3 |      9,447 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/channel/DP99_channelYZ2_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv     | CSV      |      9,570 |          0 |          3 |      9,573 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP100_internalXZ1_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv | CSV      |        692 |          0 |          3 |        695 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP100_internalYZ1_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv | CSV      |      4,664 |          0 |          3 |      4,667 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP101_internalXZ1_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv | CSV      |        627 |          0 |          3 |        630 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP101_internalYZ1_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv | CSV      |      4,568 |          0 |          3 |      4,571 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP102_internalXZ1_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv | CSV      |        513 |          0 |          3 |        516 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP103_internalXZ1_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv | CSV      |        513 |          0 |          3 |        516 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP104_internalXZ1_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv | CSV      |        511 |          0 |          3 |        514 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP10_internalXZ1_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv  | CSV      |      1,057 |          0 |          3 |      1,060 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP10_internalYZ1_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv  | CSV      |      4,984 |          0 |          3 |      4,987 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP98_internalXZ1_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv  | CSV      |        506 |          0 |          3 |        509 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP98_internalYZ1_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv  | CSV      |      4,393 |          0 |          3 |      4,396 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP99_internalXZ1_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv  | CSV      |        717 |          0 |          3 |        720 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal1/DP99_internalYZ1_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv  | CSV      |      4,756 |          0 |          3 |      4,759 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP100_internalXZ2_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv | CSV      |        747 |          0 |          3 |        750 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP100_internalYZ2_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv | CSV      |      4,774 |          0 |          3 |      4,777 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP101_internalXZ2_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv | CSV      |        807 |          0 |          3 |        810 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP101_internalYZ2_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv | CSV      |      4,802 |          0 |          3 |      4,805 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP102_internalXZ2_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv | CSV      |        960 |          0 |          3 |        963 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP102_internalYZ2_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv | CSV      |      4,972 |          0 |          3 |      4,975 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP103_internalXZ2_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv | CSV      |      1,008 |          0 |          3 |      1,011 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP103_internalYZ2_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv | CSV      |      4,987 |          0 |          3 |      4,990 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP104_internalXZ2_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv | CSV      |        914 |          0 |          3 |        917 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP104_internalYZ2_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv | CSV      |      4,948 |          0 |          3 |      4,951 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP10_internalXZ2_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv  | CSV      |      1,056 |          0 |          3 |      1,059 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP10_internalYZ2_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv  | CSV      |      4,997 |          0 |          3 |      5,000 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP98_internalXZ2_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv  | CSV      |        507 |          0 |          3 |        510 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP98_internalYZ2_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv  | CSV      |      4,424 |          0 |          3 |      4,427 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP99_internalXZ2_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv  | CSV      |        808 |          0 |          3 |        811 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/internal2/DP99_internalYZ2_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv  | CSV      |      4,800 |          0 |          3 |      4,803 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP100_solidXZ_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv         | CSV      |      2,881 |          0 |          3 |      2,884 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP100_solidYZ1_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv        | CSV      |      1,928 |          0 |          3 |      1,931 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP100_solidYZ2_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv        | CSV      |      1,824 |          0 |          3 |      1,827 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP101_solidXZ_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv         | CSV      |      2,870 |          0 |          3 |      2,873 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP101_solidYZ1_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv        | CSV      |      2,032 |          0 |          3 |      2,035 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP101_solidYZ2_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv        | CSV      |      1,772 |          0 |          3 |      1,775 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP102_solidXZ_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv         | CSV      |      2,861 |          0 |          3 |      2,864 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP102_solidYZ1_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv        | CSV      |      1,928 |          0 |          3 |      1,931 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP102_solidYZ2_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv        | CSV      |      1,720 |          0 |          3 |      1,723 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP103_solidXZ_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv         | CSV      |      2,879 |          0 |          3 |      2,882 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP103_solidYZ2_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv        | CSV      |      1,772 |          0 |          3 |      1,775 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP104_solidXZ_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv         | CSV      |      2,862 |          0 |          3 |      2,865 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP104_solidYZ2_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv        | CSV      |      1,824 |          0 |          3 |      1,827 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP10_solidXZ_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv          | CSV      |      2,868 |          0 |          3 |      2,871 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP10_solidYZ1_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv         | CSV      |      1,876 |          0 |          3 |      1,879 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP10_solidYZ2_5,000-5,000-28,000-12,000-22,000-22,000-20,000-20,000.csv         | CSV      |      1,980 |          0 |          3 |      1,983 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP98_solidXZ_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv          | CSV      |      2,919 |          0 |          3 |      2,922 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP98_solidYZ1_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv         | CSV      |      2,084 |          0 |          3 |      2,087 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP98_solidYZ2_3,000-3,000-12,000-12,000-10,000-10,000-11,000-11,000.csv         | CSV      |      2,136 |          0 |          3 |      2,139 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP99_solidXZ_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv          | CSV      |      2,871 |          0 |          3 |      2,874 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP99_solidYZ1_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv         | CSV      |      1,824 |          0 |          3 |      1,827 |
+| /dLight/modulusDesignOptimization/ansys/validators - Copy/solid/DP99_solidYZ2_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv         | CSV      |      1,876 |          0 |          3 |      1,879 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP100_channelXZ_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv            | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP100_channelYZ1_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv           | CSV      |      9,363 |          0 |          3 |      9,366 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP100_channelYZ2_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv           | CSV      |      9,582 |          0 |          3 |      9,585 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP101_channelXZ_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv            | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP101_channelYZ1_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv           | CSV      |      9,356 |          0 |          3 |      9,359 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP101_channelYZ2_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv           | CSV      |      9,505 |          0 |          3 |      9,508 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP102_channelXZ_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv            | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP103_channelXZ_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv            | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP104_channelXZ_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv            | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP99_channelXZ_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv             | CSV      |    114,316 |          0 |          3 |    114,319 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP99_channelYZ1_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv            | CSV      |      9,444 |          0 |          3 |      9,447 |
+| /dLight/modulusDesignOptimization/ansys/validators/channel/DP99_channelYZ2_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv            | CSV      |      9,570 |          0 |          3 |      9,573 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP100_internalXZ1_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv        | CSV      |        692 |          0 |          3 |        695 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP100_internalYZ1_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv        | CSV      |      4,664 |          0 |          3 |      4,667 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP101_internalXZ1_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv        | CSV      |        627 |          0 |          3 |        630 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP101_internalYZ1_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv        | CSV      |      4,568 |          0 |          3 |      4,571 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP102_internalXZ1_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv        | CSV      |        513 |          0 |          3 |        516 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP103_internalXZ1_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv        | CSV      |        513 |          0 |          3 |        516 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP104_internalXZ1_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv        | CSV      |        511 |          0 |          3 |        514 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP99_internalXZ1_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv         | CSV      |        717 |          0 |          3 |        720 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal1/DP99_internalYZ1_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv         | CSV      |      4,756 |          0 |          3 |      4,759 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP100_internalXZ2_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv        | CSV      |        747 |          0 |          3 |        750 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP100_internalYZ2_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv        | CSV      |      4,774 |          0 |          3 |      4,777 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP101_internalXZ2_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv        | CSV      |        807 |          0 |          3 |        810 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP101_internalYZ2_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv        | CSV      |      4,802 |          0 |          3 |      4,805 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP102_internalXZ2_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv        | CSV      |        960 |          0 |          3 |        963 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP102_internalYZ2_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv        | CSV      |      4,972 |          0 |          3 |      4,975 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP103_internalXZ2_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv        | CSV      |      1,008 |          0 |          3 |      1,011 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP103_internalYZ2_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv        | CSV      |      4,987 |          0 |          3 |      4,990 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP104_internalXZ2_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv        | CSV      |        914 |          0 |          3 |        917 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP104_internalYZ2_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv        | CSV      |      4,948 |          0 |          3 |      4,951 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP99_internalXZ2_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv         | CSV      |        808 |          0 |          3 |        811 |
+| /dLight/modulusDesignOptimization/ansys/validators/internal2/DP99_internalYZ2_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv         | CSV      |      4,800 |          0 |          3 |      4,803 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP100_solidXZ_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv                | CSV      |      2,881 |          0 |          3 |      2,884 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP100_solidYZ1_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv               | CSV      |      1,928 |          0 |          3 |      1,931 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP100_solidYZ2_4,172-3,767-19,749-17,725-12,972-13,345-11,889-12,848.csv               | CSV      |      1,824 |          0 |          3 |      1,827 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP101_solidXZ_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv                | CSV      |      2,870 |          0 |          3 |      2,873 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP101_solidYZ1_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv               | CSV      |      2,032 |          0 |          3 |      2,035 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP101_solidYZ2_4,366-3,445-18,759-16,673-12,947-12,946-11,971-13,047.csv               | CSV      |      1,772 |          0 |          3 |      1,775 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP102_solidXZ_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv                | CSV      |      2,861 |          0 |          3 |      2,864 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP102_solidYZ1_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv               | CSV      |      1,928 |          0 |          3 |      1,931 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP102_solidYZ2_4,987-3,000-19,720-21,458-15,710-13,218-19,077-14,325.csv               | CSV      |      1,720 |          0 |          3 |      1,723 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP103_solidXZ_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv                | CSV      |      2,879 |          0 |          3 |      2,882 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP103_solidYZ2_4,997-3,000-19,186-18,659-10,599-13,102-16,353-12,071.csv               | CSV      |      1,772 |          0 |          3 |      1,775 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP104_solidXZ_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv                | CSV      |      2,862 |          0 |          3 |      2,865 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP104_solidYZ2_4,995-3,000-20,468-19,323-10,072-10,483-11,859-16,918.csv               | CSV      |      1,824 |          0 |          3 |      1,827 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP99_solidXZ_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv                 | CSV      |      2,871 |          0 |          3 |      2,874 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP99_solidYZ1_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv                | CSV      |      1,824 |          0 |          3 |      1,827 |
+| /dLight/modulusDesignOptimization/ansys/validators/solid/DP99_solidYZ2_4,348-3,968-19,513-20,175-13,511-14,944-11,444-11,199.csv                | CSV      |      1,876 |          0 |          3 |      1,879 |
+| /dLight/modulusDesignOptimization/opt/paretoAns.csv                                                                                             | CSV      |        454 |          0 |          1 |        455 |
+| /dLight/modulusDesignOptimization/outputs/channelFlow/data/monitors/channel_inlet_flow.csv                                                      | CSV      |        102 |          0 |          1 |        103 |
+| /dLight/modulusDesignOptimization/outputs/channelFlow/data/monitors/channel_inlet_pressure.csv                                                  | CSV      |        102 |          0 |          1 |        103 |
+| /dLight/modulusDesignOptimization/outputs/channelFlow/data/monitors/channel_outlet_flow.csv                                                     | CSV      |        102 |          0 |          1 |        103 |
+| /dLight/modulusDesignOptimization/outputs/channelFlow/data/monitors/channel_outlet_pressure.csv                                                 | CSV      |        102 |          0 |          1 |        103 |
+| /dLight/modulusDesignOptimization/outputs/coolingFlow/rsSDF/monitors/cooling_inlet_flow.csv                                                     | CSV      |      1,002 |          0 |          1 |      1,003 |
+| /dLight/modulusDesignOptimization/outputs/coolingFlow/rsSDF/monitors/cooling_inlet_flow_MIN.csv                                                 | CSV      |      1,002 |          0 |          1 |      1,003 |
+| /dLight/modulusDesignOptimization/outputs/coolingFlow/rsSDF/monitors/cooling_outlet_flow.csv                                                    | CSV      |      1,002 |          0 |          1 |      1,003 |
+| /dLight/modulusDesignOptimization/outputs/coolingFlow/rsSDF/monitors/cooling_outlet_flow_MIN.csv                                                | CSV      |      1,002 |          0 |          1 |      1,003 |
+| Total                                                                                                                                           |          |  6,858,782 |          0 |        395 |  6,859,177 |
++-------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
