@@ -1,1 +1,1 @@
-Tested in Modulus 23.05
+Developed and tested in Modulus ver 23.05
